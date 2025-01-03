@@ -12,14 +12,15 @@
 2. Link repository in `package.json`
 
 ```javascript
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/.../.git"
-},
-"bugs": {
-  "url": "https://github.com/.../issues"
-     }
-     }
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/.../.git"
+  },
+  "bugs": {
+    "url": "https://github.com/.../issues"
+  }
+}
 ```
 
 ## CI setup

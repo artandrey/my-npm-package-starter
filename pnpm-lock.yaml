@@ -48,8 +48,8 @@ importers:
         specifier: ^8.29.0
         version: 8.29.0(eslint@9.23.0)(typescript@5.7.3)
       unplugin-swc:
-        specifier: ^1.5.1
-        version: 1.5.1(@swc/core@1.10.4)(rollup@4.38.0)
+        specifier: ^1.5.2
+        version: 1.5.2(@swc/core@1.10.4)(rollup@4.38.0)
       vitest:
         specifier: ^3.1.1
         version: 3.1.1(@types/node@22.13.17)(yaml@2.7.1)
@@ -944,11 +944,6 @@ packages:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-
-  acorn@8.14.0:
-    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.14.1:
     resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
@@ -1960,13 +1955,13 @@ packages:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
 
-  unplugin-swc@1.5.1:
-    resolution: {integrity: sha512-/ZLrPNjChhGx3Z95pxJ4tQgfI6rWqukgYHKflrNB4zAV1izOQuDhkTn55JWeivpBxDCoK7M/TStb2aS/14PS/g==}
+  unplugin-swc@1.5.2:
+    resolution: {integrity: sha512-bf8DJO8lD1wpnwFglQpVH2XEaFfVsSU5C7yFyLwGT1gxskPtejlDeuttKxjtmHTSqrDsQrK0FCFdhw3Ny+K7hA==}
     peerDependencies:
       '@swc/core': ^1.2.108
 
-  unplugin@1.16.0:
-    resolution: {integrity: sha512-5liCNPuJW8dqh3+DM6uNM2EI3MLLpCKp/KY+9pB5M2S2SR2qvvDHhKgBOaTWEbZTAws3CXfB0rKTIolWKL05VQ==}
+  unplugin@1.16.1:
+    resolution: {integrity: sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==}
     engines: {node: '>=14.0.0'}
 
   uri-js@4.4.1:
@@ -2871,8 +2866,6 @@ snapshots:
   acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
       acorn: 8.14.1
-
-  acorn@8.14.0: {}
 
   acorn@8.14.1: {}
 
@@ -3860,18 +3853,18 @@ snapshots:
 
   universalify@0.1.2: {}
 
-  unplugin-swc@1.5.1(@swc/core@1.10.4)(rollup@4.38.0):
+  unplugin-swc@1.5.2(@swc/core@1.10.4)(rollup@4.38.0):
     dependencies:
       '@rollup/pluginutils': 5.1.4(rollup@4.38.0)
       '@swc/core': 1.10.4
       load-tsconfig: 0.2.5
-      unplugin: 1.16.0
+      unplugin: 1.16.1
     transitivePeerDependencies:
       - rollup
 
-  unplugin@1.16.0:
+  unplugin@1.16.1:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
       webpack-virtual-modules: 0.6.2
 
   uri-js@4.4.1:
